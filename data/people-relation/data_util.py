@@ -43,7 +43,7 @@ with codecs.open('train.txt','r','utf-8') as tfc:
         count[relation2id[line[2]]]+=1
         total_data+=1
         
-print total_data,len(datas)
+print (total_data,len(datas))
 
 from compiler.ast import flatten
 all_words = flatten(datas)
